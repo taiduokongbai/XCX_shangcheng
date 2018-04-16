@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container w-index">
+  <view class="index-header">
+        <text class="iconfont icon-shouye"></text>
+        <view>
+          <view class="searchIcon">
+            <text class="iconfont icon-icon--"></text>
+          </view> 
+          <input 
+            type="text" 
+            placeholder='请输入关键字'
+            confirm-type="go"
+            class="searchInput"
+            />
+        </view>
+        <text class="iconfont icon-fenlei1"></text>
+  </view>
+  <view class="content">
+    <view class="index-swiper">
+      <swiper indicator-dots="{{true}}"
+        autoplay="true" interval="{{5000}}" duration="{{2000}}" circular="true">
+        <block wx:for="{{imgUrls}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="100%" height="150" mode="scaleToFill"/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="index-content">
+      <view class="coupon">
+        <image src="../../images/IMG_2366.JPG" width="100%" height="100" class="title" mode="scaleToFill"/>
+        <view>
+          <view wx:for="{{couponList}}" wx:for-item="item" wx:key="id" class="coupon-item">
+            <text>{{item.currency}}</text>
+            <text>{{item.amount}}</text>
+            <text>订单满{{item.conditionAmount}}使用</text>
+            <text>×</text>
+            <text>立即领取</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

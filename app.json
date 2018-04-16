@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "OOU微信商城",
+    "navigationBarTextStyle":"black",
+    "backgroundColorTop": "#fff",
+    "backgroundColorBottom": "#ccc",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#4a4a4a",
+    "selectedColor": "#8B0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/icon_index_default.png",
+        "selectedIconPath": "images/icon_index.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "全部商品",
+        "iconPath": "images/icon_fenlei_default.png",
+        "selectedIconPath": "images/icon_fenlei.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "购物车",
+        "iconPath": "images/icon_gouwuche_default.png",
+        "selectedIconPath": "images/icon_gouwuche.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "images/icon_my_default.png",
+        "selectedIconPath": "images/icon_my.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

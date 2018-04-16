@@ -1,0 +1,98 @@
+/**index.wxss**/
+
+/* --- header ---  */
+.w-index{
+  display:flex;
+  flex-direction:column;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.index-header{
+  height: 80rpx;
+  line-height: 80rpx;
+  padding: 0 20rpx;
+  background-color: #000;
+  box-shadow: 4rpx 0rpx 10rpx #fff; 
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.index-header .icon-shouye,
+.index-header .icon-fenlei1{
+  color: #ccc;
+  font-size: 30rpx;
+}
+.index-header > view {
+  width: 85%;
+  background-color: #fff;
+  display: flex;
+  flex: row;
+  justify-content: flex-start;
+  border-radius: 30rpx;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 26rpx;
+  color: #4a4a4a;
+}
+.searchIcon{
+  display: inline-block;
+  padding: 0 20rpx;
+}
+.searchInput{
+  width: 80%;
+}
+/* --- content ---  */
+.content{
+  flex: 1;
+  overflow-y: auto;
+}
+/* ---- swiper ----  */
+.index-swiper{
+  height: 300rpx;
+}
+.index-swiper swiper{
+  height: 100%
+}
+
+.index-swiper swiper image{
+  width: 100vw;
+}
+
+/* --- content ---  */
+.index-content{
+  background-color: #c30101;
+}
+.coupon .title{
+  height: 200rpx;
+  width: 100vw;
+}
+.coupon > view{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30rpx 0;
+}
+
+.coupon-item{
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-size: 24rpx;
+  color: #c30101;
+}
+.coupon-item text:nth-child(2){
+  font-size: 50rpx;
+}

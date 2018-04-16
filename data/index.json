@@ -1,0 +1,10 @@
+{
+  "success": 200,
+  "message": [],
+  "data": {
+    "swiperImgList": [    "https://img.alicdn.com/bao/uploaded/i2/3014361455/TB1fMR5fgfH8KJjy1zcXXcTzpXa_!!0-item_pic.jpg_b.jpg",
+"https://img.alicdn.com/bao/uploaded/i1/1848910522/TB2pRY9hnnI8KJjy0FfXXcdoVXa_!!1848910522.jpg_b.jpg",
+"https://img.alicdn.com/bao/uploaded/i2/2811105799/TB1ulhOarsTMeJjy1zbXXchlVXa_!!0-item_pic.jpg_b.jpg"
+    ]
+  }
+}
